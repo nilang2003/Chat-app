@@ -7,7 +7,7 @@ import SettingsPage from "./pages/SettingsPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 
 import { Routes, Route, Navigate } from "react-router-dom";
-import { useAuthStore } from "./store/useAuthStore.js";
+import useAuthStore from "./store/useAuthStore.js";
 import { useThemeStore } from "./store/useThemeStore.js";
 import { useEffect } from "react";
 
