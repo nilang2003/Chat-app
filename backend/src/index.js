@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use("/api/auth", authRoutes);
-app.use("/api/message", MessageRoutes);
+app.use("/api/messages", MessageRoutes);
 
 app.listen(process.env.PORT, () => {
   console.log("App is running on port: " + process.env.PORT);
